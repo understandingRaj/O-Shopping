@@ -90,6 +90,7 @@ cross.addEventListener("click",()=>{
     sidebar.classList.remove("active");
     cross.classList.remove("active");
    black.classList.remove("active");
+   document.body.classList.remove("stop-scroll");
     
 })
 const sign = document.querySelector(".ac");
